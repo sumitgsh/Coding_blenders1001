@@ -12,11 +12,15 @@
 	color: white;
 }
 
+.container-1{
+	margin-top: 40px;
+}
   .container2{
 	display: block; 
 	width:500px;
 	margin-left:33.3%;
 	margin-top:5%;	
+	margin-bottom: 5%;
 	padding:35px;
 	border:1px solid grey;
 	background-color:white;
