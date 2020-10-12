@@ -1,3 +1,16 @@
+html,body{
+	margin:0;
+	padding:0;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust:100%
+  }
+  html{ scroll-behavior: smooth;
+	--top-spacing: 10px;
+	scroll-padding-top: var(--top-spacing);
+	
+  }
+
+
 .A1{
 	margin-top: 32px;
 
@@ -125,7 +138,7 @@ padding-bottom: 21%;
 	margin-bottom: 5%;
 	padding:35px;
 	border:1px solid grey;
-	background-color:white;
+	background-color:floralwhite;
    -webkit-border-radius:5px;
    -moz-border-radius:5px;
    border-radius:5px;
@@ -222,13 +235,14 @@ padding-bottom: 21%;
 	padding:6px 16px;
 	text-decoration:none;
 	font-size:1.0em;
+	margin-left: 150px;
 	background-color:black;
 	box-shadow:0 2 3px black;
 	-moz-box-shadow:0 1 3px black;
 	-webkit-box-shadow:0 1 3px black;
   }
   .container2 input.submit:hover{
-	background:black;
+	background:lightblue;
 	}
   .container2 input.submit:active, .container input.submit:focus{
 	top:1px;
